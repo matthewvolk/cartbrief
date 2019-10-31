@@ -21,7 +21,7 @@ app.get("/api/news", (req, res) => {
 
   let url =
     `https://newsapi.org/v2/everything?` +
-    `q=ecommerce&` +
+    `q=+ecommerce&` +
     `language=en&` +
     `sortBy=${sortBy}&` +
     `pageSize=${pageSize}&` +

@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"nodemon server.js\" \"npm run --prefix ./client start\""
+    "dev": "concurrently \"nodemon server.js\" \"npm run --prefix ./client start\"",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Matthew Volk",
   "license": "ISC",

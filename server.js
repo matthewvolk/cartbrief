@@ -1,8 +1,12 @@
 require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
+const path = require("path");
 const app = express();
 const port = 4000;
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("/api/news", (req, res) => {
   /**
@@ -38,6 +42,10 @@ app.get("/api/news", (req, res) => {
       res.send(data.data);
     })
     .catch(err => res.send(err));
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

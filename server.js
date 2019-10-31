@@ -5,7 +5,6 @@ const path = require("path");
 const app = express();
 const port = 4000;
 
-// Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("/api/news", (req, res) => {

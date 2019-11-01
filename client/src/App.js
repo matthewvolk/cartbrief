@@ -322,7 +322,8 @@ class App extends Component {
                     border: "1px solid rgba(0,0,0,.1)",
                     borderRadius: "4px",
                     marginBottom: "1.75em",
-                    padding: "1em"
+                    padding: "1em",
+                    wordBreak: "break-all"
                   }}
                 >
                   <h5>

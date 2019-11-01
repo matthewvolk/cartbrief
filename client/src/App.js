@@ -179,7 +179,14 @@ class App extends Component {
                 className="mb-1 mt-1"
                 style={{ fontSize: "0.85rem", color: "gray" }}
               >
-                Follow me on <a href="https://twitter.com/mattjvolk">Twitter</a>
+                Follow me on{" "}
+                <a
+                  href="https://twitter.com/mattjvolk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
               </p>
               {/* <div className="mb-2">
                 <h2
@@ -268,7 +275,14 @@ class App extends Component {
                 className="mb-1 mt-1"
                 style={{ fontSize: "0.85rem", color: "gray" }}
               >
-                Follow me on <a href="https://twitter.com/mattjvolk">Twitter</a>
+                Follow me on{" "}
+                <a
+                  href="https://twitter.com/mattjvolk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
+                </a>
               </p>
               {/* <div className="mb-2">
                 <h2
@@ -329,7 +343,7 @@ class App extends Component {
                   <h5>
                     <strong>
                       <a
-                        href={article.url}
+                        href={`${article.url}?ref=https://ecomnews.herokuapp.com`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

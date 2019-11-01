@@ -151,7 +151,7 @@ class App extends Component {
       return (
         <div className="App">
           <Container fluid={true}>
-            <div className="header text-center mb-5 mt-5">
+            <div className="header text-center mb-5 mt-4">
               <img src={Logo} width="75px" alt="Ecommerce News Logo" />
               <h1
                 style={{
@@ -159,10 +159,28 @@ class App extends Component {
                   fontWeight: "700",
                   fontSize: "2.25em"
                 }}
-                className="mb-3"
+                className="mb-1"
               >
                 E-commerce News
               </h1>
+              <p
+                className="mb-1 mt-1"
+                style={{
+                  maxWidth: "720px",
+                  margin: "0 auto",
+                  fontSize: "0.85rem",
+                  color: "gray"
+                }}
+              >
+                A website aggregating news articles from 30,000 news sources
+                that include any mention of the word "e-commerce".
+              </p>
+              <p
+                className="mb-1 mt-1"
+                style={{ fontSize: "0.85rem", color: "gray" }}
+              >
+                Follow me on <a href="https://twitter.com/mattjvolk">Twitter</a>
+              </p>
               {/* <div className="mb-2">
                 <h2
                   style={{
@@ -222,7 +240,7 @@ class App extends Component {
       return (
         <div className="App">
           <Container fluid={true}>
-            <div className="header text-center mb-4 mt-5">
+            <div className="header text-center mb-4 mt-4">
               <img src={Logo} width="75px" alt="Ecommerce News Logo" />
               <h1
                 style={{
@@ -230,10 +248,28 @@ class App extends Component {
                   fontWeight: "700",
                   fontSize: "2.25em"
                 }}
-                className="mb-3"
+                className="mb-1"
               >
                 E-commerce News
               </h1>
+              <p
+                className="mb-1 mt-1"
+                style={{
+                  maxWidth: "720px",
+                  margin: "0 auto",
+                  fontSize: "0.85rem",
+                  color: "gray"
+                }}
+              >
+                A website aggregating news articles from 30,000 news sources
+                that include any mention of the word "e-commerce".
+              </p>
+              <p
+                className="mb-1 mt-1"
+                style={{ fontSize: "0.85rem", color: "gray" }}
+              >
+                Follow me on <a href="https://twitter.com/mattjvolk">Twitter</a>
+              </p>
               {/* <div className="mb-2">
                 <h2
                   style={{

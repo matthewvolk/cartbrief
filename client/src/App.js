@@ -259,7 +259,7 @@ class App extends Component {
               >
                 E-commerce News
               </h1>
-              <p
+              {/* <p
                 className="mb-1 mt-1"
                 style={{
                   maxWidth: "720px",
@@ -283,7 +283,7 @@ class App extends Component {
                 >
                   Twitter
                 </a>
-              </p>
+              </p> */}
               {/* <div className="mb-2">
                 <h2
                   style={{

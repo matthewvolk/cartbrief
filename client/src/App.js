@@ -155,13 +155,12 @@ class App extends Component {
               <img src={Logo} width="75px" alt="Ecommerce News Logo" />
               <h1
                 style={{
-                  textTransform: "uppercase",
                   fontWeight: "700",
                   fontSize: "2.25em"
                 }}
                 className="mb-1"
               >
-                E-commerce News
+                CartBrief
               </h1>
               {/* <p
                 className="mb-1 mt-1"
@@ -251,13 +250,12 @@ class App extends Component {
               <img src={Logo} width="75px" alt="Ecommerce News Logo" />
               <h1
                 style={{
-                  textTransform: "uppercase",
                   fontWeight: "700",
                   fontSize: "2.25em"
                 }}
                 className="mb-1"
               >
-                E-commerce News
+                CartBrief
               </h1>
               {/* <p
                 className="mb-1 mt-1"

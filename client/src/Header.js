@@ -6,7 +6,7 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <a href="/" className="logo">
+      <a href="/" className="logo" style={{ textDecoration: "none" }}>
         <div className="header text-center mb-0 mt-4">
           <img
             src={LogoImg}

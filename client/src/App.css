@@ -1,3 +1,27 @@
 a:visited {
   color: purple;
 }
+
+.logo:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+nav ul li a,
+nav ul li a:visited {
+  color: grey;
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  color: grey;
+  text-decoration: underline;
+}

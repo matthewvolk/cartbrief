@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Navigation from "./Navigation";
+import Neat from "./img/neat.gif";
 import "./About.css";
 
 class About extends Component {
@@ -11,13 +12,14 @@ class About extends Component {
         <Navigation />
         <div
           className="text-center"
-          style={{ maxWidth: "720px", margin: "0 auto" }}
+          style={{ maxWidth: "720px", margin: "0 auto", padding: "0 1em" }}
         >
           <p>
             CartBrief is an application designed to aggregate news articles from
             over 30,000 news sources that contain the keyword "e-commerce".
           </p>
-          <p>Neato, right? 😎</p>
+          <img src={Neat} alt="Neat Gif" width="300px" />
+          <br />
           <br />
           <div>
             <a

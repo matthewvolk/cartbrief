@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+import "./Navigation.css";
 
 class Navigation extends Component {
   render() {

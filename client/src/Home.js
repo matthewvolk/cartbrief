@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./App.css";
 import { Container } from "reactstrap";
 import axios from "axios";
 import Navigation from "./Navigation";
 import Header from "./Header";
+import "./Home.css";
 
 class Home extends Component {
   constructor(props) {

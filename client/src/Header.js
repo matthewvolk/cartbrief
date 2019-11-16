@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import LogoImg from "./img/logo.png";
+import "./Header.css";
 
 class Header extends Component {
   render() {

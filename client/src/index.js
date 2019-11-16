@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-152691822-1");
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

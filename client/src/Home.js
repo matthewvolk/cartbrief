@@ -196,7 +196,7 @@ class Home extends Component {
                   <h5>
                     <strong>
                       <a
-                        href={`${article.url}?ref=https://ecomnews.herokuapp.com`}
+                        href={`${article.url}?ref=https://cartbrief.com`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -9,11 +9,11 @@ nav ul li {
 
 nav ul li a,
 nav ul li a:visited {
-  color: grey;
+  color: grey !important;
   text-decoration: underline !important;
 }
 
 nav ul li a:hover {
-  color: grey;
+  color: grey !important;
   text-decoration: underline !important;
 }

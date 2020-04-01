@@ -190,7 +190,7 @@ class Home extends Component {
                     borderRadius: "4px",
                     marginBottom: "1.75em",
                     padding: "1em",
-                    wordBreak: "break-all"
+                    wordBreak: "break-word"
                   }}
                 >
                   <h5>
